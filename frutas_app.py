@@ -68,3 +68,21 @@ fruta_mas_parecida = min(distancias, key=distancias.get)
 st.subheader("Resultado")
 
 st.success(f"La fruta más parecida es: {fruta_mas_parecida}")
+
+st.subheader("Descripción de la fruta")
+
+match fruta_mas_parecida:
+    case "🍎 Manzana":
+        st.write("La manzana es una fruta crujiente, dulce y refrescante.")
+        
+    case "🍌 Banano":
+        st.write("El banano es una fruta suave, dulce y rica en potasio.")
+        
+    case "🍊 Naranja":
+        st.write("La naranja es una fruta cítrica, jugosa y rica en vitamina C.")
+        
+    case "🍐 Pera":
+        st.write("La pera es una fruta jugosa, suave y generalmente dulce.")
+        
+    case _:
+        st.write("No se encontró una descripción para esta fruta.")
