@@ -73,16 +73,16 @@ st.subheader("Descripción de la fruta")
 
 match fruta_mas_parecida:
     case "🍎 Manzana":
-        st.write("La manzana es una fruta crujiente, dulce y refrescante.")
+        st.write("La manzana tiene forma redonda, piel fina de colores rojo, verde o amarillo, y pulpa blanca o jugosa con pequeñas semillas oscuras en el centro. Su sabor es dulce o ácido y es muy saludable.")
         
     case "🍌 Banano":
-        st.write("El banano es una fruta suave, dulce y rica en potasio.")
+        st.write("La banana es el fruto carnoso y alargado de una gran planta herbácea del género Musa. Tiene forma curva, cáscara gruesa que cambia de verde a amarilla al madurar y pulpa suave. Es una de las frutas más consumidas del mundo por su sabor dulce y gran valor energético")
         
     case "🍊 Naranja":
-        st.write("La naranja es una fruta cítrica, jugosa y rica en vitamina C.")
+        st.write("La naranja es una fruta cítrica redonda, de 6 a 10 cm de diámetro, con cáscara y pulpa anaranjadas. Su interior tiene de 8 a 12 gajos llenos de jugo jugoso y dulce o ácido. Es rica en vitamina C, fibra y agua")
         
     case "🍐 Pera":
-        st.write("La pera es una fruta jugosa, suave y generalmente dulce.")
+        st.write("La pera es una fruta jugosa y carnosa con forma de lágrima o bombilla. Tiene piel lisa de color verde, amarillo o marrón, pulpa blanca muy refrescante y un sabor dulce y suave. Crece en los árboles llamados perales.")
         
     case _:
         st.write("No se encontró una descripción para esta fruta.")
